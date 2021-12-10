@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 15px;
+}
+.configurator{
+    width:50%;
+    border: 1px solid black;
+  padding: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    height: 42px;
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .obstruction{
+    width: 150px;
+    border: 1px solid grey;
+  }
+  .obstruction > div {
+    width: 50px;
+    height: 42px;
+    background: black;
+  }
